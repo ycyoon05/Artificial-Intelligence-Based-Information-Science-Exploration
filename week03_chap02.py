@@ -1,8 +1,10 @@
-a = 9
-print(a)
-b = a
-print(b)
+x = [1, 2, 3]
+y = x
+print(x, y)
+y[0] = -11
+print(x, y)
 
-print(type(9.1))
-print(type(9.1) == int)
-print(isinstance(9.1, float))
+#dictionary : mutable
+
+human = {'eye' : 1.0, 'bloodtype' : 'ab'}
+print(human['eye'])
