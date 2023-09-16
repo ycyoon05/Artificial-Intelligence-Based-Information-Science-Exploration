@@ -13,3 +13,4 @@ b = 2 ** 5
 print(b)
 b = pow(2, 5)
 print(b)
+
