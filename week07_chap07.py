@@ -21,4 +21,14 @@ print(numbers)
 numbers *= 2 # list multiplication
 print(numbers)
 
+numbers1 = list()
 
+for i in range(0, 5):
+    numbers1.append(i)
+
+print(numbers1)
+numbers3 = numbers1 + numbers
+print(numbers1)
+print(numbers3)
+numbers1.extend(numbers)
+print(numbers1)
